@@ -3,7 +3,6 @@ package com.sawan.journalApp.service;
 import com.sawan.journalApp.entity.User;
 import com.sawan.journalApp.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
