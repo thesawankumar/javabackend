@@ -13,3 +13,9 @@
 spring:
   profiles:
     active: dev
+#
+#logging:
+#  level:
+#    com:
+#      sawan:
+#        journalApp: DEBUG

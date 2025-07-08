@@ -22,6 +22,8 @@ public class JournalEntryService {
     @Autowired
     private UserService userService;
 
+
+
     @Transactional
     public void saveEntry(JournalEntry journalEntry, String userName) {
         try {
@@ -50,7 +52,7 @@ public class JournalEntryService {
 
     @Transactional
     public boolean deleteById(ObjectId id, String userName) {
-        boolean removed=false;
+        boolean removed = false;
         try {
             User user = userService.findByUserName(userName);
             removed = user.getJournalEntries().removeIf(X -> X.getId().equals(id));
