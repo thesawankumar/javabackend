@@ -1,5 +1,0 @@
-25-07-12 15:55:01.951 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
-25-07-12 15:55:02.167 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/journal' 
-25-07-12 15:55:02.376 [main] INFO  c.s.journalApp.JournalApplication - Started JournalApplication in 16.882 seconds (process running for 20.843) 
-25-07-12 15:55:47.668 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete 
-25-07-12 15:55:47.679 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete 
