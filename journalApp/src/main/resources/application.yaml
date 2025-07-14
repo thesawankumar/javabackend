@@ -14,18 +14,18 @@ spring:
   profiles:
     active: dev
 
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: sawankushwaha222@gmail.com
-    password: wkyn mlzf rgzr oomu
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-
+#  mail:
+#    host: smtp.gmail.com
+#    port: 587
+#    username: sawankushwaha222@gmail.com
+#    password: wkyn mlzf rgzr oomu
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          starttls:
+#            enable: true
+#
 
 #
 #logging:

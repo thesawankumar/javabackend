@@ -19,7 +19,6 @@ public class UserRepositoryImpl {
         query.addCriteria(Criteria.where("sentimentAnalysis").is(true));
         List<User> users = mongoTemplate.find(query, User.class);
         return users;
-
     }
 
 }
