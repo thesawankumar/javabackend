@@ -2,7 +2,6 @@ spring:
   redis:
     uri: redis-cli -u redis://default:WxyS6jJCyFRSBvowpJmDcExleAe9aDOx@redis-13978.c258.us-east-1-4.ec2.redns.redis-cloud.com:13978
   #    host: localhost
-
   #    port: 6379
 
   data:
@@ -24,5 +23,3 @@ spring:
 
 server:
   port: 8080
-  servlet:
-    context-path: /journal

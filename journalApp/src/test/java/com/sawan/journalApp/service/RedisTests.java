@@ -19,6 +19,5 @@ public class RedisTests {
         Object salary = redisTemplate.opsForValue().get("salary");
         int a = 1;
 
-
     }
 }
