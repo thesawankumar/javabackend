@@ -1,0 +1,4 @@
+25-07-17 19:32:02.506 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath. 
+25-07-17 19:32:04.131 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+25-07-17 19:32:04.191 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+25-07-17 19:32:04.311 [main] INFO  c.s.journalApp.JournalApplication - Started JournalApplication in 18.932 seconds (process running for 20.766) 
